@@ -9,5 +9,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          start: npx cypress run
+          start: npm start
           spec: cypress/e2e/login.cy.js
